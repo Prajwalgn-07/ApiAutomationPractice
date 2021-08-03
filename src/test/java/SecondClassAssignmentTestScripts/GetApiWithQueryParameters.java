@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static io.restassured.http.ContentType.JSON;
 
-public record getApiWithQueryParameters() {
+public record GetApiWithQueryParameters() {
     @Test
     public void getApiWithQuery(){
         Response response=given()

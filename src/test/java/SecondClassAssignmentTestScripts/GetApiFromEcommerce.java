@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 
 
-public class getApiFromEcommerce {
+public class GetApiFromEcommerce {
     @Test
     public void getImageFromAmazon(){
         Response response=given()
