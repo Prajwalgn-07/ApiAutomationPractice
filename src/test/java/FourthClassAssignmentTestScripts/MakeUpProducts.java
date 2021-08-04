@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class ProductsBlackColor {
+public class MakeUpProducts {
     @Test
     public void getProductsBlackColor(){
         Response products=given()
